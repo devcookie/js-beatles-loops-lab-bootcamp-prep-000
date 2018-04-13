@@ -10,8 +10,9 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(array) {
   var countdown = array.length-1;
   while(countdown >= 0) {
-    array[countdown].toString()
-    
+    var string = array[countdown].toString()
+    string = string + '!!!'
+    array.push(string)
     countdown --
   }
   return array
