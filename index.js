@@ -12,7 +12,7 @@ function johnLennonFacts(array) {
   while(countdown >= 0) {
     var string = array[countdown].toString()
     string = string + '!!!'
-    array[countdown].unshift(string)
+    array[countdown]= array.unshift(string)
     countdown --
   }
   return array
