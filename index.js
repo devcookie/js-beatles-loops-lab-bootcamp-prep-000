@@ -11,11 +11,16 @@ function johnLennonFacts(array) {
   var countdown = array.length-1;
   var stringArr = array
   while(countdown >= 0) {
-    //var stringArr = array
-
     stringArr = array.pop()+'!!!'
     array.unshift(stringArr)
     countdown --
   }
   return array
+}
+
+function iLoveTheBeatles(num) {
+  var array = []
+  do {
+    array.push('I love the Beatles!')
+  } while(num < 15)
 }
