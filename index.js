@@ -11,10 +11,10 @@ function johnLennonFacts(array) {
   var countdown = array.length-1;
   var stringArr = array
   while(countdown >= 0) {
-    var stringArr = array
+    //var stringArr = array
 
     stringArr = array.unshift(array.pop()+'!!!')
     countdown --
   }
-  return array
+  return stringArr
 }
