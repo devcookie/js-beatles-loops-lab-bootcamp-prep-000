@@ -13,8 +13,9 @@ function johnLennonFacts(array) {
   while(countdown >= 0) {
     //var stringArr = array
 
-    stringArr = array.unshift(array.pop()+'!!!')
+    stringArr = array.pop()+'!!!'
+    array.unshift(stringArr)
     countdown --
   }
-  return stringArr
+  return array
 }
